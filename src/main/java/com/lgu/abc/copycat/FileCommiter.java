@@ -18,7 +18,7 @@ public class FileCommiter {
 	private List<CopycatConfiguration> newConfigurations() {
 		List<CopycatConfiguration> configurations = new ArrayList<CopycatConfiguration>();
 		
-		configurations.addAll(core());  
+		configurations.addAll(core());
 		configurations.addAll(address());
 		configurations.addAll(new CommitResource("abc.attendance", "attendance", "attendance", "attendance", "wrk").configurations());
 		configurations.addAll(new CommitResource("abc.auth", "auth").configurations());
